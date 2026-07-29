@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CashinoSDK.UsbPrint;
+namespace CashinoSDK.Status;
 
 // n=3: error status (10 04 03) — тоже несколько ошибок могут быть сразу
 [Flags]

@@ -6,7 +6,7 @@ using Microsoft.Win32.SafeHandles;
 
 namespace CashinoSDK.UsbPrint;
 
-public static class UsbPrintHelper
+internal static class UsbPrintHelper
 {
     // {28D78FAD-5A12-11D1-AE5B-0000F803A8C2} — интерфейс, который регистрирует usbprint.sys
     private static Guid GUID_DEVINTERFACE_USBPRINT =

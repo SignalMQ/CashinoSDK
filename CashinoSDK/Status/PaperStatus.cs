@@ -1,4 +1,4 @@
-﻿namespace CashinoSDK.UsbPrint;
+﻿namespace CashinoSDK.Status;
 
 // n=4: paper sensor status (10 04 04)
 public enum PaperStatus

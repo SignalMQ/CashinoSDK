@@ -1,4 +1,4 @@
-﻿namespace CashinoSDK.UsbPrint;
+﻿namespace CashinoSDK.Status;
 
 // n=1: printer status (10 04 01)
 public enum PrinterStatus

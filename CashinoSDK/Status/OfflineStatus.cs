@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CashinoSDK.UsbPrint;
+namespace CashinoSDK.Status;
 
 // n=2: off-line status (10 04 02) — здесь несколько причин могут быть одновременно,
 // поэтому [Flags], а не одиночное состояние

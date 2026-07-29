@@ -1,6 +1,6 @@
-﻿namespace CashinoSDK.UsbPrint;
+﻿namespace CashinoSDK.Status;
 
-public static class StatusHelper
+internal static class StatusHelper
 {
     public static PrinterStatus GetPrinterStatus(byte s) => s switch
     {
